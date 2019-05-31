@@ -1,5 +1,47 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+  max-width:100%;
+}
+
+
+
+
 
 .site-header{
   padding-top:20px 0 20px 0;
+
+}
+.contenedor{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+
+/**navegacion**/
+.barra{
+  background-color: #DB008D;
+
+}
+.navegacion-principal a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 22px;
+  display: block;
+  text-align: center;
+  padding:20px;
+}
+@media (min-width:768px){
+  .navegacion-principal a{
+    display:inline-block;
+    margin-right: 10px;
+  }
+
+}
+.navegacion-principal a:hover{
+  background-color: #00B8E4;
+
 
 }
