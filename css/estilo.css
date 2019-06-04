@@ -45,3 +45,16 @@ img{
 
 
 }
+/** COntenido principal**/
+.contenido-principal{
+  width: 800px;
+  float: left;
+
+
+}
+.sidebar{
+  width:400px;
+  float: left;
+
+
+}
