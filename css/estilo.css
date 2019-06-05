@@ -11,9 +11,28 @@ body{
 }
 img{
   max-width:100%;
+
 }
+p{
+  font-size: 17px;
+  line-height: 2;
+}
+.boton{
+  background-color:  #00B8E4;
+  padding: 20xp 80px;
+  display: inline-block;
+  margin-top:10px;
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: background-color.3s ease-in-out;
 
+}
+.boton:hover{
+  background-color:  #00B817;
 
+}
 
 
 
@@ -37,6 +56,7 @@ img{
 /**navegacion**/
 .barra{
   background-color: #DB008D;
+  margin-top: 40px;
 
 }
 .navegacion-principal a{
@@ -60,26 +80,81 @@ img{
 
 }
 /** COntenido principal**/
+.conteido-principal{
+    margin-top: 40px;
+
+}
 .conteido-principal,
 .sidebar{
   padding: 20px;
+
 }
 @media(min-width:768px){
   .contenido-principal{
     width: 70%;
     float: left;
     padding:0 60px 0 0;
-
-
   }
   .sidebar{
     width: 30%;
     float: left;
     padding: 0;
+    margin-top: 40px;
+  }
 }
 
 /** entrada de blog**/
 h2{
   color:#00B8E4;
   margin-bottom: 20px;
+
+}
+.entrada{
+  margin-bottom: : 60px;
+}
+.entrada:last-of-type{
+  margin-bottom: 0;
+
+}
+.entrada img{
+  display: block;
+}
+@media (min-width: 480px){
+  .entrada img{
+    width: 300px;
+    float: left;
+    margin: 0 30px 20px 0;
+  }
+
+}
+.entrada p{
+  text-align: justify;
+}
+/**sidebar**/
+.sidebar ul{
+  list-style: none;
+  padding: 0;
+}
+.sidebar ul li{
+  margin-bottom:20px;
+  padding: 10px;
+
+}
+
+.sidebar ul li:hover{
+  border-color:#00B818;
+
+
+}
+
+.sidebar ul li a{
+  color: #00B8E4;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+.sidebar ul li:hover a{
+  color: #08F;
+
 }
