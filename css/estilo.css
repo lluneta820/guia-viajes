@@ -64,23 +64,24 @@ p{
   display: block;
   padding: 20px 0;
 }
- #nav:target{
+#nav:target{
   max-height: 800px;
 }
-.navagacion-principal{
-  max-height: 0;
+.navegacion-principal{
+  max-height: 1px;
+  padding-bottom: 1px;
   transition: .5s;
-
+  overflow: hidden;
 }
-@media (min-witdh:768px){
-  .navagacion-principal{
+@media (min-width:768px){
+  .navegacion-principal{
     max-height: unset;
   }
-  .mobile menu,
-  .cerrar{
+  .mobile-menu,
+  #nav .cerrar{
      display: none
+   }
 }
-
 
 
 
@@ -89,8 +90,8 @@ p{
 .barra{
   background-color: #DB008D;
   margin-top: 40px;
-
 }
+
 .navegacion-principal a{
   color: #ffffff;
   text-decoration: none;
