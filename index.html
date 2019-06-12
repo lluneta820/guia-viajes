@@ -7,18 +7,25 @@
     <title>Guía de viajes</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/b7602950c5.js"></script>
   </head>
   <body>
     <header class="site-header contenedor">
       <img src="img/logo.png"  alt="logotipo">
     </header>
       <div class="barra">
-        <nav class="navegacion-principal contenedor">
+        <a href="#nav" class="mobile-menu">
+          <i class="fas fa-ellipsis-v"></i>
+        </a>
+        <nav id="nav" class="navegacion-principal contenedor">
           <a href="#">Inicio</a>
           <a href="#">Nosotros</a>
           <a href="#">Blog</a>
           <a href="#">Tienda</a>
           <a href="#">Contacto</a>
+
+          <a href="#" class="cerrar"></a>
+           <i class="far fa-window-close"></i>
 
         </nav>
       </div>

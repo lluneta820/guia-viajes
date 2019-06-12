@@ -17,6 +17,7 @@ p{
   font-size: 17px;
   line-height: 2;
 }
+
 .boton{
   background-color:  #00B8E4;
   padding: 20xp 80px;
@@ -51,6 +52,37 @@ p{
   clear: both;
   display: table;
 }
+/**Navegacion responsiva**/
+.barra{
+  overflow: hidden;
+
+}
+.mobile-menu{
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  display: block;
+  padding: 20px 0;
+}
+ #nav:target{
+  max-height: 800px;
+}
+.navagacion-principal{
+  max-height: 0;
+  transition: .5s;
+
+}
+@media (min-witdh:768px){
+  .navagacion-principal{
+    max-height: unset;
+  }
+  .mobile menu,
+  .cerrar{
+     display: none
+}
+
+
+
 
 
 /**navegacion**/
